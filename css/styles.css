@@ -1,0 +1,47 @@
+body {
+    background-color: #ccc;
+}
+
+h1 {
+    font-family: 'Seaweed Script', cursive;
+}
+
+p {
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+}
+
+.ship_img {
+    float: right;
+    margin: 0 0 1em 1em;
+    transform: rotate(2deg);
+}
+
+.treasure_img {
+    float: left;
+    margin: 0 1em 1em 0;
+    transform: rotate(-2deg);
+}
+
+.ship_img p, .treasure_img p {
+    margin: 0;
+}
+
+.ship_img, .treasure_img {
+    border: 1px solid #ddd;
+    color: #333;
+    text-align: center;
+    width: 40%;
+    padding: 0.5em;
+    box-shadow: 0.5em 0.5em 0.25em #aaaaaa;
+}
